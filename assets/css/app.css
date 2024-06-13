@@ -4613,8 +4613,9 @@ footer .copyright_row P {
   justify-content: center;
 }
 .gallery__card .gallery__card__content .gallery-img img {
-  height: 100%;
-  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 @media only screen and (min-width: 1199px) and (max-width: 1400px) {
   .gallery__card .gallery__card__content {
